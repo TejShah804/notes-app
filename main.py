@@ -48,8 +48,8 @@ def root():
 @app.get("/about")
 def about():
     return {
-        "name": "Your Name",
-        "email": "your@email.com",
+        "name": "tejshah",
+        "email": "tejshah@email.com",
         "my_features": {
             "Pin Notes": (
                 "POST /notes/{id}/pin toggles pin on a note. "
